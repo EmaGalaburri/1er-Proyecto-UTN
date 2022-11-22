@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(./Imagenes/marmolWhiteAndGold.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(214, 189, 47);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 1000;
+    font-size: 3em;
+    text-shadow: 2px 2px grey;   
+}   
+
+.fa-brands{
+    font-size: 20px;
+    color: darkgoldenrod;
+}
+
+.logoDCyM{
+    width: 60px;
+    margin: 0px auto;
+    display: flex; 
+}
+
+#imagenReloj1{
+    max-width: 900px;
+    display: block;
+    margin: auto;
+    box-shadow: 10px 10px 10px gray;
+}
+
+h2{
+    color: rgb(214, 189, 47);
+    text-shadow: 2px 2px grey;
+    text-align: center;
+    background-size: cover;
+    padding: 30px;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.card{
+    display: flex;
+}
+
+.padre{
+    display: flex; 
+}
+
+.hijo{
+    margin: 15px;
+    justify-content: center;
+}
+
+.SR{
+    max-width: 300px;
+    max-height: 300px;
+    box-shadow: 10px 10px 10px gray;
+}
+.SRSB{
+    width: 330px;
+}
+
+.item-menu{
+    display: inline;    
+}
+
+
+
+main{
+    display: flex;
+}
+
+/* .tarjeta1{
+    max-width: 500px;
+    max-height: 474px;
+    border: 2px solid black;
+    margin: 50px auto;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.tarjeta2{
+    max-width: 500px;
+    max-height: 748px;
+    border: 2px solid black;
+    margin: 50px auto;
+    box-shadow: 10px 10px 10px gray;
+} */
+
+.img-tarjeta{
+    width: 496px;
+}
+
+.fotoEnvios{
+    width: 500px;
+    display: block;
+    margin: auto;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.contacto{
+    text-align: center;
+}
+
+.logoRedes{
+    width: 20px;
+}
+
